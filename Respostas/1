@@ -1,14 +1,18 @@
 1. Sistemas embarcados  são sistemas microprocessados normalmente encapsulados e dedicados ao sistema em que opera.
+
 2. Sistemas que possuem um microprocessador integrado que realiza as funções de cálculo e tomada de decisões do sistema.
+
 3. a) Codificador de mp3, computador de bordo, controlador de sensores diversos.
    b) Controle de temperatura, temporizadores, função sleep.
    c) Controle de máquinas, dispositivos de segurança.
+
 4. Von Neumann: Esta arquitetura caracteriza-se por apresentar um barramento externo compartilhado 
    entre dados e endereços. Embora apresente baixo custo, esta arquitetura apresenta desempenho limitado 
    pelo gargalo do barramento.
    Harvard: Nesta arquitetura existem dois barramentos externos independentes (e normalmente também memórias independentes)
    para dados e endereços. Isto reduz de forma sensível o gargalo de barramento, que é uma das principais barreiras
    de desempenho, em detrimento do encarecimento do sistema como um todo.
+
 5. Pela versatilidade e grande conteúdo disponível para projetos, disponibilidade de sistemas operacionais para
    o desenvolvimento, além do potente processamento de dados, o que permite uma extensa gama de possibilidades 
    de aplicação em sistemas operacionais embarcados.
