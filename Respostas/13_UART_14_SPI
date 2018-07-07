@@ -1,0 +1,15 @@
+1.
+a) utiliza apenas dois fios para comunicação (rx,tx), porém não é síncrona, podendo ocasionar erros na comunicação.
+b) utiliza três fios, com a vantagem de ser síncrona, menos suscetível a erros.
+
+2.
+Pode comunicar a qualquer hora, a comunicação UART é definida quando qualquer um dos dois dispositivos mandam sinais.
+
+3.
+Deve aguardar a raspberry pi (mestre) mandar algum comando, pois a comunicação SPI só é feita quando o mestre requisita algum dado.
+
+4. 
+Definindo um bit identificador a mensagem enviada, cada dispositovo identificará esse bit, recebendo corretamente seus dados.
+
+5.
+Adicionando um novo pino para seleção de escravo, quanto mais escravos, mais pinos ficam relacionados ao SPI.
