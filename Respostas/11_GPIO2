@@ -1,0 +1,16 @@
+1.
+Raspberry 3 Model B, pela vesatilidade de comunicações sem fio e saída de aúdio p2 que facilitará a implementação do projeto.
+
+2.
+Raspibian, pela maior difusão de conteúdo entre projetistas.
+
+3.
+- Formatar cartão SD em formato FAT ou FAT32.
+- Fazer download do arquivo "Noobs – Offline and network install" na seção de downloads no link www.raspberrypi.org 
+- Descompactar arquivo baixado e copiar para o cartão SD.
+- Conectar a placa ao monitor, mouse, teclado, colocar o cartão SD e ligar fonte de alimentação.
+- Aparecerá uma tela com opções de marcação, marque "Raspibian" e alguma outra extensão desejada, clique em install e confirme.
+- Aguarde a instalçao do SO.
+
+4.
+Projeto será programado e compilado na própria placa, em C. Utilizando os periféricos da placa necessários para o projeto.
