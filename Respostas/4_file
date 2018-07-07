@@ -1,0 +1,151 @@
+1.
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    FILE *pf;
+    char nome[9]= "Ola mundo" ;
+    if((pf = fopen("exemplo.txt", "wb")) == NULL) /* Abre arquivo binario para escrita */
+    {
+        printf("Erro na abertura do arquivo");
+        exit(1);
+    }
+    fwrite(nome, sizeof(char), 9,pf);
+    fclose(pf);
+    return(0);
+}	
+
+2.
+#include <stdio.h>
+
+int main(int argc, const char * argv[]) {
+	char name[20],arquivo[20];
+	int idade=0;
+   
+	FILE *fp;
+	printf("Digite seu nome:");
+	scanf("%s",name); 	
+	printf("\nDigite sua idade:");
+	scanf(" %d ", idade);
+
+while (name[i] != "\0"){
+	arquivo[i]= name[i];
+	i++;
+	}
+  strcat(arquivo. ".txt");
+	fopen( )
+}
+
+3.
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char **argv){
+	
+
+	FILE *fp;
+	char *nome,*aux,*idade;
+
+	nome = argv[1];
+	idade = argv[2];
+
+	sprintf(aux,"%s.txt",nome);	
+	
+	fp = fopen(aux,"w");
+
+	if(!fp){
+		printf("Erro ao abrir o arquivo\n");
+		exit(0);
+	}
+
+
+	fprintf(fp,"Nome: %s\n",nome);
+	fprintf(fp,"Idade: %s\n",idade);
+
+	fclose(fp);
+
+	return 0;
+}
+
+4.
+#include <stdio.h>
+#include <stdlib.h>
+#include "bib_arqs.h"
+
+int main(int argc, char *argv){
+	
+	int resultado;
+	char nome_arquivo[20];
+
+	printf("Nome do arquivo: ");
+	scanf("%s",nome_arquivo);
+	
+	resultado = tam_arq_text(nome_arquivo);
+
+	printf("%d\n",resultado);
+
+	return 0;
+}
+
+5.
+#include <stdio.h>
+#include <stdlib.h>
+#include "bib_arqs.h"
+
+int main(int argc, char *argv){
+	
+	char conteudo[100];
+	char nome_arquivo[20];
+
+	printf("Nome do arquivo: ");
+	scanf("%s",nome_arquivo);
+	
+	le_arq_texto(nome_arquivo,conteudo);
+
+	printf("%s",conteudo);
+
+	return 0;
+}
+
+6.
+#include <stdio.h>
+#include <stdlib.h>
+#include "bib_arqs.h"
+
+int main(int argc, char **argv){
+	
+	char conteudo[100];
+	char nome_arquivo[20];
+
+	sprintf(nome_arquivo,"%s",argv[1]);
+	
+	le_arq_texto(nome_arquivo,conteudo);
+
+	printf("%s",conteudo);
+
+	return 0;
+}
+
+7.
+#include <stdio.h>
+#include <stdlib.h>
+#include "bib_arqs.h"
+
+int main(int argc, char **argv){
+	
+	int ocorrencia;
+	char nome_arquivo[20];
+	char palavra_chave[20];
+
+	sprintf(palavra_chave,"%s",argv[1]);
+	sprintf(nome_arquivo,"%s",argv[2]);
+
+	ocorrencia = grep_false(nome_arquivo,palavra_chave);
+
+	printf("%d\n",ocorrencia);
+
+	return 0;
+}
+
+8.
+
