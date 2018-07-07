@@ -1,0 +1,12 @@
+1.
+Utiliza apenas dois fios para comunicação, um de clock e outro de dados bidirecional, todos os escravos são conectados aos mesmos fios,
+não havendo a necessidade do uso de mais pinos, pelo uso de apenas um pino de comunicação de dados, essa comunicação se dá de forma mais
+lenta, sempre esperando um dispositivo terminar a comunicação para o outro começa-la.
+
+2.
+Deve aguardar um pedido do raspberry-pi (master), a comunicação I2C também trabalha com o modelo mestre/escravo.
+
+3.
+Na comunicação serial síncrona I2C há um endereçamento de dispositivos (escravos) onde 7 bits da comunicação são designados para
+a identificação de cada escravo, dando a possibilidade de comunicação com até 127 dispositivos escravos (teoricamente) com apenas
+dois fios.
