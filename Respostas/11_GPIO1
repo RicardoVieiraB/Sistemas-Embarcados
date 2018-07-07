@@ -1,0 +1,17 @@
+1.
+Raspibian, Ubunto Mate, Windows 10 IOT, Risc OS, Pidora.
+
+2.
+Inicializando boot em cartão SD (mínimo 8GB).
+
+3.
+C, Python, GPIO's.
+
+4.
+módulo Wi-fi, módulo Bluetooth, entrada Ethernet.
+
+5. 
+Utilizando GCC incluso no próprio sistema da placa.
+
+6. 
+Utilizando compilador python incluso no próprio sistema da placa (no caso do Raspibian).
