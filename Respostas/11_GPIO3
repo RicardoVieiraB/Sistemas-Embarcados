@@ -1,6 +1,7 @@
 1.
 a- GPIOS's : 5, 6, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27.
-b- 
+b- todos os pinos citados anteriormente.
 c- UART, I2C, SPI.
 
 2.
+pigpio
