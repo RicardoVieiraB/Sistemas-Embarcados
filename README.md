@@ -1,2 +1,2 @@
 # Sistemas-Embarcados
-Disciplina Sistemas Embarcados. Qua e Sex. 16-18hrs. Ricardo Vieira Borges - 16/0039355
+Disciplina Sistemas Embarcados (2018/1). Qua e Sex. 16-18hrs. Ricardo Vieira Borges
